@@ -1,7 +1,13 @@
-FROM jenkins:latest
+FROM python:3.7-slim
 
-USER root
+MAINTAINER yes.mail.me.here@gmail.com
 
-RUN apt-get update
+COPY . /jenkins-demo
 
-RUN apt-get install -y python-pip
+WORKDIR /jenkins-demo
+
+RUN pip install -r requirements.txt -U
+
+RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
+
+CMD tail -f /dev/null
