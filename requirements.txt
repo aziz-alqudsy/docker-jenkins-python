@@ -10,8 +10,9 @@ packaging==20.4
 pluggy==0.13.1
 py==1.9.0
 pyparsing==2.4.7
-pytest==6.1.1
+pytest==6.1.2
+redis==3.5.3
 six==1.15.0
 toml==0.10.1
 Werkzeug==1.0.1
-zipp==3.3.1
+zipp==3.4.0
