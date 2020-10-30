@@ -8,6 +8,6 @@ WORKDIR /jenkins-demo
 
 RUN pip install -r requirements.txt -U
 
-RUN ["python", "-m", "pytest"]
+RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
 
 CMD tail -f /dev/null
