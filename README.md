@@ -13,9 +13,9 @@ tools :
     - calculator.py (functions that we test)
   - tests
     - test_addition.py (test add() fucntion from calculator.py)
-  DockerFile (setup docker to run test)
-  JenkinsDockerfile (setup docker to install jenkins for pipeline)
-  requirements.txt (to install dependencies)
+  - DockerFile (setup docker to run test)
+  - JenkinsDockerfile (setup docker to install jenkins for pipeline)
+  - requirements.txt (to install dependencies)
 
 ## how to run
 1. activate python virtual environment
