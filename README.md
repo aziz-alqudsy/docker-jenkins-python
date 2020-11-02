@@ -1,4 +1,4 @@
-# jenkins-demo
+# automated software testing using docker and jenkins
 this is dummy project automation testing that integrated to jenkins and docker
 tools :
 - python 3.7
